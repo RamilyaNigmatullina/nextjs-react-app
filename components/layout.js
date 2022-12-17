@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import BackToHome from "./back-to-home";
+import BackLink from "./back-link";
 
 const name = 'Ramilya';
 export const siteTitle = 'Ramilya\'s Blog';
@@ -11,7 +11,7 @@ export const siteTitle = 'Ramilya\'s Blog';
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
-      {SharedHead}
+      <SharedHead/>
       <header className={styles.header}>
         {home ? (
           <>
@@ -48,7 +48,7 @@ export default function Layout({ children, home }) {
         )}
       </header>
       <main>{children}</main>
-      <BackToHome home={home} />
+      <BackLink home={home} />
     </div>
   );
 }
