@@ -5,11 +5,18 @@
   margin-bottom: 2px;
 }
 
+@media only screen and (max-width: 450px) {
+  .info {
+    display: block;
+    margin-bottom: 2px;
+  }
+}
+
 .name {
   font-weight: bold;
+  margin-right: 5px;
 }
 
 .date {
   color: grey;
-  margin-left: 15px;
 }
