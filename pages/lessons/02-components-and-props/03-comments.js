@@ -11,14 +11,14 @@ export default function Comments() {
       <>
         <Comment
           author={johnSmith}
-          date={'1584-12-25'}
+          date={'1629-07-25'}
           text={'I played an important role in the establishment of the colony at Jamestown, Virginia.'}
         />
         <Comment
           author={walterRaleigh}
-          date={'1584-12-22'}
+          date={'1615-12-22'}
           text={
-            'And I played a leading part in English colonisation of North America, suppressed rebellion in Ireland,' +
+            'I played a leading part in English colonisation of North America, suppressed rebellion in Ireland,' +
             'helped defend England against the Spanish Armada and held political positions under Elizabeth I.'
           }
         />
