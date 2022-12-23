@@ -10,11 +10,15 @@ export default function ComponentsAndProps() {
     <LessonLayout name={name} link={link}>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Pages</h2>
-        <ul className={utilStyles.list}>
-          <li className={utilStyles.listItem} key='1'>
+        <ul>
+          <li key='1'>
             <Link href={`/lessons/02-components-and-props/01-function-component`}>Function component</Link>
-            <br/>
+          </li>
+          <li key='2'>
             <Link href={`/lessons/02-components-and-props/02-class-component`}>Class component</Link>
+          </li>
+          <li key='3'>
+            <Link href={`/lessons/02-components-and-props/03-comments`}>Extracting Components</Link>
           </li>
         </ul>
       </section>
